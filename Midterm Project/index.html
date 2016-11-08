@@ -10,25 +10,23 @@
 <body>
 
 <!-- Page header -->
-<header>
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="container-fluid">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+        <ul class="nav navbar-nav navbar-center">
+				  <li><a href="http://www.columbia.edu/~gmg2155/">Home</a></li>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#analyze">Analyze Speeches</a></li>
+					<li><a href="#quiz">Quiz</a></li>
+				  <li><a href="#exercise1">Simplify Excerpts</a></li>
+					<li><a href="#evaluation">Evaluation</a></li>
+					<li><a href="#external">External Resources</a></li>
+        </ul>
+		</div>
+	</nav>
 
-            <ul class="nav navbar-nav navbar-center">
-							  <li><a href="http://www.columbia.edu/~gmg2155/">Home</a></li>
-                <li><a href="#intro">Introduction</a></li>
-                <li><a href="#analyze">Analyze Speeches</a></li>
-                <li><a href="#exercise1">Simplify Excerpts</a></li>
-								<li><a href="#reflection">Reflection</a></li>
-								<li><a href="#quiz">Quiz</a></li>
-								<li><a href="#external">External Resources</a></li>
 
-            </ul>
-				</div>
-			</nav>
-</header>
-
-<div class="container header">
+<header class="headerimage">
+<div class="container-fluid header">
 <div id="heading" align="center">
 		<h1>Speech for Dummies 101</h1>
 		<h2>Public Speaking Course</h2>
@@ -37,15 +35,24 @@
 		<!-- quote from: http://www.sparkpresentations.com/public-speaking-tips-presentation-quotes -->
 </div>
 </div>
+</header>
 
 <div class="container intro" id="intro">
 	<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h3>Introduction</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h3>Introduction</h3>
 
-						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p> The best speaker relates to his/her audience and delivers their message as concise and precise as possible, based on relevant contexts.</p>
+					<ul> Through this introductory course, we hope you will be able to:
+						<ol> 1. Analyze and understand the content of a speech	</ol>
+						<ol> 2. Choose the simplest sentence between two that conveys the same meaning	</ol>
+						<ol> 3. Write your own simplified version from a complex script	</ol>
+						<ol> 4. Evaluate and reflect on the process and challenges of breaking down sentences to be more concise and precise	</ol>
+						<ol>	5. Gain the skills to write your own speech in a concise way using proper pragmatics (relevant context) and semantics (choice of words)	</ol>
+					</ul>
 
-					</div>
+
+			</div>
 
 	</div>
 </div>
@@ -53,7 +60,9 @@
 <!-- Videos from two candidates - assesment of what the audience knows -->
 	<div class="container analyze" id="analyze">
 		<h3>Analyzing the Speeches</h3>
-	 	<p> Listen to the following two speeches and write down the main ideas from each please note the following:
+	 	<p> 1. Listen to the following two speeches <br>
+				2. Write down the main ideas from each <br>
+				3. Read the explanations below each video and cross-check with your notes, make sure you understand the content
 		</p>
 
 	<div class="row">
@@ -139,35 +148,107 @@
 	</div>
 	</div>
 
-	<div class="container exercise1" id="exercise1">
-		<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h3>Exercise: Simplify these Excerpts </h3>
-
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-						</div>
-
-		</div>
-	</div>
-
-	<div class="container reflection" id="reflection">
-		<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h3>Reflection & Discussion</h3>
-
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-						</div>
-
-		</div>
-	</div>
-
 	<div class="container quiz" id="quiz">
 		<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<h3>Interactive Quiz: Can you tell the difference?</h3>
 
+							<ul> Choose the simplest version of the two sentences!
+								<ol> <h4 style="color:green;"> Example 1	</h4> </ol>
+								<ol> a. Please note that this is a mandatory rule that must be followed by all students. Students who disregard this warning will be called to the dean's office for a public hearing, and depending on the state of the violation, will be penalized with heavy consequences that may include academic discipline, academic probation, or even expulsion. </ol>
+								<ol> b. A new rule has been established and all students are expected to abide by it. Any violation will result in relevant penalties. </ol>
+								<ol><input type="button" onclick="quizAnswer()" value="Answer"/></ol>
+								<br>
+								<ol> <h4 style="color:green;"> Example 2	</h4> </ol>
+								<ol> a. This program can only work with Chrome and Firefox. If you choose to use Explorer or Safari, the program will crash and you will have a very sophisticated and challenging problem. We recommend you just stick to the first two as they have been proven to serve the ultimate need of our project very well. </ol>
+								<ol> b. We recommend using Chrome and Firefox. If you choose to use another browser, you will run into problems with our program. </ol>
+								<ol><input type="button" onclick="quizAnswer()" value="Answer"/></ol>
+							</ul>
+
+						</div>
+
+		</div>
+	</div>
+
+	<div class="container exercise1" id="exercise1">
+		<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<h3>Exercise: Simplify these Excerpts </h3>
+							<p>
+							Before you start on the exercise, please read this <a href="http://www.plainenglish.co.uk/files/howto.pdf"> How to Write in Plain English </a> guide.
+							</p>
+							<p>
+								Instruction: Based on your notes from the speeches above, please simplify these excerpts so they can best deliver the meaning each speaker is trying to convey (pragmatics) using as less words as possible (semantics).
+							</p>
+
+							<h4 style="color:magenta;"> Exercise 1	</h4>
+							<table class="table table-striped">
+	  					<tr>
+	  						Original Excerpts
+	  					</tr>
+							<tr>
+								<th> Donald Trump </th>
+								<th> Hilary Clinton </th>
+							</tr>
+							<tr>
+								<th> “The attack on the Pulse night club in Orlando, Florida, was the worst terrorist strike on our soil since September 11th.” </th>
+								<th> “We will learn more about the killer in the days to come. We know that he pledged allegiance to ISIS, that they are now taking credit, and that part of their strategy is to radicalize individuals and encourage attacks against the United States even if they are not coordinated with ISIS leadership.” </th>
+							</tr>
+							</table>
+
+							<table class="table table-striped">
+							<tr>
+								Your Simplified Version
+							</tr>
+							<tr>
+								<th> Donald Trump </th>
+								<th> Hilary Clinton </th>
+							</tr>
+							<tr>
+								<th> <input type="text" class="form-control" placeholder="Text input"> </th>
+								<th> <input type="text" class="form-control" placeholder="Text input"> </th>
+							</tr>
+							</table>
+
+							<h4 style="color:magenta;"> Exercise 2	</h4>
+							<table class="table table-striped">
+							<tr>
+								Original Excerpts
+							</tr>
+							<tr>
+								<th> Donald Trump </th>
+								<th> Hilary Clinton </th>
+							</tr>
+							<tr>
+								<th> “When I’m elected, I will suspend immigration from areas of the world, where there is a proven history of terrorism against the United States, Europe or our allies; until we fully understand how to end these threats.” </th>
+								<th> “The Orlando terrorist may be dead, but the virus that poisoned his mind remains very much alive, and we must attack it with clear eyes, steady hands, unwavering determination and pride in our country and our values.” </th>
+							</tr>
+							</table>
+
+							<table class="table table-striped">
+							<tr>
+								Your Simplified Version
+							</tr>
+							<tr>
+								<th> Donald Trump </th>
+								<th> Hilary Clinton </th>
+							</tr>
+							<tr>
+								<th> <input type="text" class="form-control" placeholder="Text input"> </th>
+								<th> <input type="text" class="form-control" placeholder="Text input"> </th>
+							</tr>
+							</table>
+
+						</div>
+
+		</div>
+	</div>
+
+	<div class="container evaluation" id="evaluation">
+		<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<h3>Evaluation & Reflection</h3>
+
 							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 						</div>
@@ -175,9 +256,11 @@
 		</div>
 	</div>
 
+
+
 	<!-- Link to Javascript -->
 	<pre id="info"></pre>
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>

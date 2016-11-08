@@ -11,14 +11,38 @@ font-family: 'Montserrat', sans-serif;
 h3
 {
   font-family: 'Lalezar', cursive;
+  color: #3B0484;
 }
 
 h4
 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower';
 }
 
-body
+
+
+.intro, .analyze, .quiz, .exercise1, .evaluation
 {
-  padding-top: 70px;
+  border-collapse: separate;
+  border-style: groove;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #570EBA;
+  padding: 10px;
+}
+
+.header
+{
+  margin-left: 0;
+  padding-bottom: 70px;
+}
+
+.headerimage
+{
+   background-image: url(../images/headerimage.png);
+   background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+   width: 1400px;
+   padding-top: 80px;
 }
