@@ -19,8 +19,6 @@ h4
   font-family: 'Indie Flower';
 }
 
-
-
 .intro, .analyze, .quiz, .exercise1, .evaluation
 {
   border-collapse: separate;
@@ -45,4 +43,14 @@ h4
 	 background-size: cover;
    width: 1400px;
    padding-top: 80px;
+}
+
+.profile
+{
+  border-collapse: separate;
+  border-style: groove;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: blue;
+  padding: 10px;
 }
