@@ -11,7 +11,7 @@ font-family: 'Montserrat', sans-serif;
 h3
 {
   font-family: 'Lalezar', cursive;
-  color: #3B0484;
+  color: #0C9292;
 }
 
 h4
@@ -19,14 +19,14 @@ h4
   font-family: 'Indie Flower';
 }
 
-.intro, .analyze, .quiz, .exercise1, .evaluation
+.intro, .understand, .quiz, .exercise, .challenge, .external
 {
   border-collapse: separate;
   border-style: groove;
   border-radius: 15px;
-  border-width: 2px;
-  border-color: #570EBA;
-  padding: 10px;
+  border-width: 4px;
+  border-color: #0D4D4D;
+  padding: 30px;
 }
 
 .header
